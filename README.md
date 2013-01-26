@@ -12,6 +12,17 @@ This project has two version of programs. One is for GUI users, another one  is 
 
 GUI version needs Python 3 and PyQt 4 runtime. CLI version can run under both Python2 and Python 3.
 
+Dependencies
+-------------------------
+### GUI ###
+1. Python 3
+2. PyQt 4
+3. Beautiful Soup 4
+
+### CLI ###
+1. Python 2.7 or Python 3
+2. Beautiful Soup 4
+
 Usage
 --------------------------
 ### GUI ###
@@ -36,6 +47,17 @@ GUI version is very user-friendly, it doesn't need any manual. But it doesn't ha
 2. `main_cli.py` -- 命令行版本
 
 图形界面版本使用 PyQt 编写，仅支持 Python 3；命令行版本同时支持 Python 2.7 和 Python 3。
+
+依赖关系
+---------------------------
+### 图形版本 ###
+1. Python 3
+2. PyQt 4
+3. Beautiful Soup 4
+
+### 命令行版本 ###
+1. Python 2.7 或 Python 3
+2. Beautiful Soup 4
 
 用法
 ---------------------------
