@@ -64,7 +64,10 @@ class NetSpeed(object):
     def parse_info(self, html):
         def clean_html(html):
             soup = BeautifulSoup(html)
-            return soup.find(id="webcode").string
+            result = soup.find(id="webcode").string
+
+            # Remove unexcepted ";" under OS X.
+            return result.replace(";", "")
 
         html = clean_html(html)
         html = html.split('&')
