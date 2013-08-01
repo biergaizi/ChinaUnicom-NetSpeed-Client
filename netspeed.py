@@ -1,5 +1,13 @@
+import sys
 import random
-import httplib2
+
+if sys.version_info[0] == 2:
+    import httplib2_python2 as httplib2
+elif sys.version_info[0] == 3:
+    import httplib2_python3 as httplib2
+else:
+    assert False
+
 from bs4 import BeautifulSoup
 
 
