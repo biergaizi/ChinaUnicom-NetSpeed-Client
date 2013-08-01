@@ -58,3 +58,9 @@ class NetSpeed(object):
         self.new_speed = info['up']
         self.new_speed_id = info['gus']
         self.hours = float(info['glst'])
+
+        if self.old_speed == "512":
+            self.old_speed_unit_name = "Kbps"
+        else:
+            self.old_speed_unit_name = "Mbps"
+            assert self.new_speed != "512"

@@ -26,13 +26,15 @@ class MainWindow(QtGui.QMainWindow, Ui_MainWindow):
 
     def status_display(self):
         if not self.myNetSpeed.status:
-            self.label.setText('<html><head/><body><p align="center">你未处于提速状态</p><p align="center">提速前：%s M；提速后：%s M</p><p align="center">剩余提速时长：%s 小时</p></body></html>'
-                    % (self.myNetSpeed.old_speed, self.myNetSpeed.new_speed, self.myNetSpeed.hours))
+            self.label.setText('<html><head/><body><p align="center">你未处于提速状态</p><p align="center">提速前：%s %s；提速后：%s Mbps</p><p align="center">剩余提速时长：%s 小时</p></body></html>'
+                    % (self.myNetSpeed.old_speed, self.myNetSpeed.old_speed_unit_name,
+                       self.myNetSpeed.new_speed, self.myNetSpeed.hours))
             self.btnSpeedChange.setText("提速")
             self.btnSpeedChange.setEnabled(self.myNetSpeed.hours)
         else:
-            self.label.setText('<html><head/><body><p align="center">你已处于提速状态</p><p align="center">提速前：%s M；提速后：%s M</p><p align="center">剩余提速时长：%s 小时</p></body></html>'
-                    % (self.myNetSpeed.old_speed, self.myNetSpeed.new_speed, self.myNetSpeed.hours))
+            self.label.setText('<html><head/><body><p align="center">你已处于提速状态</p><p align="center">提速前：%s %s；提速后：%s Mbps</p><p align="center">剩余提速时长：%s 小时</p></body></html>'
+                    % (self.myNetSpeed.old_speed, self.myNetSpeed.old_speed_unit_name,
+                       self.myNetSpeed.new_speed, self.myNetSpeed.hours))
             self.btnSpeedChange.setText("降速")
 
     def speedChanged(self):

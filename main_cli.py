@@ -12,8 +12,9 @@ if len(sys.argv) < 2:
 else:
     my_netspeed = NetSpeed()
     if sys.argv[1] == "info":
-        print("SpeedUp: %s\nNormal speed: %sM\nSpeedup speed: %sM\nLeft time: %sh"
-              % (bool(my_netspeed.status), my_netspeed.old_speed, my_netspeed.new_speed, my_netspeed.hours))
+        print("SpeedUp: %s\nNormal speed: %s %s\nSpeedup speed: %s Mbps\nLeft time: %sh"
+              % (bool(my_netspeed.status), my_netspeed.old_speed, my_netspeed.old_speed_unit_name,
+                 my_netspeed.new_speed, my_netspeed.hours))
     elif sys.argv[1] == "up":
         if my_netspeed.hours == 0:
             print("Warning: Do not have any speedup time, speedup may failed!")
