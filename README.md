@@ -38,7 +38,7 @@ GUI version is very user-friendly, it doesn't need any manual. But it doesn't ha
 
 #删除Github
 ===========================
-**已删除！**本项目已迁移到 [notabug.org](https://notabug.org/ChinaUnicom-NetSpeed-Client)，欢迎加入自由世界！
+**已删除！** 本项目已迁移到 [notabug.org](https://notabug.org/ChinaUnicom-NetSpeed-Client)，欢迎加入自由世界！
 
 中国联通带宽客户端
 
