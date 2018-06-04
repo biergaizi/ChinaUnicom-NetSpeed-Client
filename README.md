@@ -1,6 +1,6 @@
 #DeleteGithub
 ===========================
-**Deleted!** This project is moved to [notabug.org](https://notabug.org/ChinaUnicom-NetSpeed-Client), welcome to join the free world!
+**Deleted!** This project is moved to [notabug.org](https://notabug.org/niconiconi/ChinaUnicom-NetSpeed-Client), welcome to join the free world!
 
 A cross-platform and open source replacement of China Unicom Net Speed Client.
 
