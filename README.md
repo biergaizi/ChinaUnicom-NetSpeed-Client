@@ -1,5 +1,6 @@
-ChinaUnicom-NetSpeed-Client
+#DeleteGithub
 ===========================
+**Deleted!** This project is moved to [notabug.org](https://notabug.org/ChinaUnicom-NetSpeed-Client), welcome to join the free world!
 
 A cross-platform and open source replacement of China Unicom Net Speed Client.
 
@@ -35,8 +36,12 @@ GUI version is very user-friendly, it doesn't need any manual. But it doesn't ha
 3. `./main_cli.py down` will slow down your connection.
 
 
-中国联通带宽客户端
+#删除Github
 ===========================
+**已删除！**本项目已迁移到 [notabug.org](https://notabug.org/ChinaUnicom-NetSpeed-Client)，欢迎加入自由世界！
+
+中国联通带宽客户端
+
 在某些情况下，只有使用联通沃宽客户端才可获得较高网速，但此客户端不跨平台。本程序是其跨平台的替代品。
 
 版本
